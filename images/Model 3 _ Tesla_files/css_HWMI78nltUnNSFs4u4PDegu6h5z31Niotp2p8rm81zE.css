@@ -1,0 +1,5 @@
+@media(min-width:900px) and (max-height:899px) and (orientation:landscape){.tcl-specifications .tcl-showcase__drawer-open-button.tcl-animate--revealed{opacity:1 !important;transform:none !important}.tcl-showcase__screen{height:auto;min-height:100vh}}
+@media(max-width:600px){.tcl-banner--active .tds-site-header-wrapper .tds-modal[open]{transform:translateX(0) translateY(0)}}
+.adminimal-admin-toolbar .block-local-tasks-block .primary{z-index:1}
+@media(max-width:640px){.tds-site-header-modal .tds-modal-content{padding-block-end:50vh}}
+h1.tds-colorscheme--dark,h1.tds-scrim--black{--tds-text--color:var(--tds-color--white);--tds-text--color--light:var(--tds-color--white)}@media(max-width:599px){.tcl-hero-banner__title{padding-bottom:24px !important;padding-top:112px !important}}

@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap");
+*,
+body {
+  padding: 0%;
+  margin: 0%;
+  font-family: "Montserrat",
+    sans-serif;
+  color: white;
+}
+h1 {
+  font-weight: bolder;
+}
+h2 {
+  font-weight: bolder;
+}
+body {
+  background-image: url("/images/486694.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-color: #cccccc;
+}
+a {
+  text-decoration: none;
+  color: rgb(
+    255,
+    255,
+    255
+  );
+}
+.btncss {
+  border-radius: 20px;
+  padding: 1em;
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+nav {
+  padding: 0.5rem;
+  padding-left: 3em;
+  padding-right: 2em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-logo {
+  height: 10vh;
+}
+.ind-link-nav {
+  padding: 1em;
+  font-size: 1.8vh;
+  font-weight: bolder;
+}
+/* MODEL S */
+.models-sec {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.models-name {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.models-det {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 45vh;
+  margin-bottom: 2vh;
+}
+.models-spec {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100vh;
+}
+/* MODEL3 */
+.model3-section {
+  background-image: url("/images/martin-katler-WyGUO1k7AEQ-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-color: #cccccc;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  align-items: center;
+}
+.car-name-model3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 100vh;
+  margin-top: 32vh;
+}
+.car-name-in-model3 {
+  font-weight: bolder;
+  font-size: 6vh;
+  margin-top: 20vh;
+}
+.car-name-ver-model3 {
+  font: lighter;
+  font-size: 3vh;
+}
+.car-spec-model3 {
+  width: 100vh;
+  display: flex;
+  justify-content: space-between;
+}
+.btnmodel3 {
+  /* margin-bottom: 10vh; */
+  /* margin-top: 35vh; */
+  /* margin: 40vh; */
+}
+.cardet {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100vh;
+  margin-bottom: 2vh;
+}
+/* MODEL X */
+.modelx-sec {
+  background-image: url("/images/teslax-gallery6.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-color: #cccccc;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.modelx-name {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10vh;
+  font-weight: bolder;
+}
